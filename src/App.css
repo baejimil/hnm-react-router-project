@@ -3,6 +3,7 @@
   justify-content: flex-end;
   margin-top: 20px;
   margin-right: 20px;
+  cursor: pointer; 
 }
 
 .nav-section{
@@ -85,4 +86,39 @@ input:focus ~ label, input:valid ~ label {
 
 input:focus ~ span, input:valid ~ span {
   width: 100%;
+}
+
+.card .img-wrap {
+  overflow: hidden;
+}
+
+.card :hover {
+  transform: scale(1.2, 1.2); transition-duration: 0.5s;
+}
+.card img {
+  transition-duration: 0.2s;
+  width: 100%;
+}
+
+.card {
+
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.product-img{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dropdown-basic-button{
+  background-color: white;
+}
+
+.add-btn{
+  margin: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
