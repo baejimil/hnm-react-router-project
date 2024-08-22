@@ -10,7 +10,7 @@ const ProductDetail = () => {
   let [product, setProduct] = useState(null);
 
   const getDetailImg = async()=>{
-    let url = `http://localhost:5001/products/${id}`;
+    let url = `https://my-json-server.typicode.com/baejimil/baejimeel-jnh/products/${id}`;
     let response = await fetch(url)
     let data = await response.json()
     console.log(data);
