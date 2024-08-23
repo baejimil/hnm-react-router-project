@@ -10,7 +10,6 @@ const Login = ({setAuthenticate}) => {
 
   const loginUser =(event)=>{
     event.preventDefault();
-    console.log("111111")
     setAuthenticate(true)
     navigate('/')
   }
